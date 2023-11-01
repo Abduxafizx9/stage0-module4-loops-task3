@@ -1,13 +1,21 @@
 package school.mjc.stage0.loops.task3;
 
 public class FibonacciSeries {
+    //public static void main(String[] args) {
     public void printFibonacci(int lastFibonacci) {
         int first=0,second=1;
-        for(int i =0;i<lastFibonacci-2;i++){
-            System.out.println(first);
-            System.out.println(second);
-            first+=second;
-            second+=first;
+        int n=0;
+        System.out.println(first);
+        for(int i =0;i<=lastFibonacci-2;i++){
+
+            n=n+second;
+
+         System.out.println(n);
+         if(i>=2){
+             second=n-second;
+         }
+
+
 
         }
     }
