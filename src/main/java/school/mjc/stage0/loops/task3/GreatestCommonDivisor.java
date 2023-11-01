@@ -12,7 +12,7 @@ public class GreatestCommonDivisor {
             }
 
         }
-        else if(first == 0 && second == 0)
+        else if(first == 0 || second == 0)
             System.out.println(0);
         else
         {
