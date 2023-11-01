@@ -9,20 +9,22 @@ public class GreatestCommonDivisor {
             System.out.println(0);
         else if(first>=second)
         {
+
             divider=second;
             for(;divider>=1;divider--) {
                 if (first % divider == 0 && second %divider==0) {
                     System.out.println(divider);
                     break;
                 }
-            }}
+            }
+        }
 
-            else
+        else
             {
                 divider=first;
                 for(;divider>=1;divider--) {
                     if (second % divider == 0 && first %divider==0) {
-                        System.out.println(first);
+                        System.out.println(divider);
                         break;
                     }
                 }
