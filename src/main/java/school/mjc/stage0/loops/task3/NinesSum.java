@@ -13,7 +13,7 @@ public class NinesSum {
             //System.out.println(num);
 
         }
-        System.out.println("Sum = " + sum);
+        System.out.println(sum);
 
     }
 }
