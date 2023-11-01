@@ -9,6 +9,7 @@ public class NinesSum {
             sum+=num;
 
         }
+        System.out.println(sum);
 
     }
 }
