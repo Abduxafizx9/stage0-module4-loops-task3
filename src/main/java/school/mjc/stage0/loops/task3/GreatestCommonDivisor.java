@@ -5,8 +5,10 @@ public class GreatestCommonDivisor {
     //public static void main(String[] args) {
         //int first = 100,second= 0;
         int divider;
-        if(first == 0 || second == 0)
-            System.out.println(0);
+        if(first == 0 && second!=0)
+            System.out.println(second);
+        else if(second == 0 && first !=0 )
+            System.out.println(first);
         else if(first>=second)
         {
 
